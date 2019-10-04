@@ -15,6 +15,7 @@ static public string FormatRut(string myString)
                     + Rut.Substring(7, 1);
                 }
                 else
+                {
                     return null;
                 }
             }
